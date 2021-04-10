@@ -22,7 +22,7 @@ import navigationTheme from "./app/navigation/navigationTheme";
 export default function App() {
   // return <WelcomeScreen />;
   // return <ViewImageScreen />;
-  // return <TestScreen />;
+  return <TestScreen />;
   // return (
   //   <View
   //     style={{
@@ -55,11 +55,11 @@ export default function App() {
   // return <RegisterScreen />;
   // return <ListingEditScreen />;
   // return <AuthNavigator />;
-  return (
-    <NavigationContainer theme={navigationTheme}>
-      <AppNavigator />
-    </NavigationContainer>
-  );
+  // return (
+  //   <NavigationContainer theme={navigationTheme}>
+  //     <AppNavigator />
+  //   </NavigationContainer>
+  // );
   // return (
   //   <NavigationContainer theme={navigationTheme}>
   //     <AuthNavigator />
